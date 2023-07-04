@@ -1,4 +1,4 @@
-version="1.0"
+version="1.0.1"
 tags={
 	"Decisions"
 	"Utilities"
@@ -6,4 +6,4 @@ tags={
 }
 name="Exalted Giga"
 supported_version="1.9.*"
-path="C:/Users/satya/Documents/Paradox Interactive/Crusader Kings III/mod/exalted_giga"
+path="/mod/exalted_giga"
