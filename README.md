@@ -25,7 +25,7 @@ This mod was tested on the 1.9.2.1 version of the game, but it should be compati
 There is a 30 days cooldown in-between the usage. If you want to change it, visit the section *[Changing modifier into custom values](#changing-modifier-into-custom-values)*.
 
 # Installation
-1. Move the `exalted_giga` folder and `exalted_giga.mod` file into your Crusader Kings 3 mods foler, usually located in `C:\Users\<your_name>\Documents\Paradox Interactive\Crusader Kings III\mod`
+1. Move the `exalted_giga` folder and `exalted_giga.mod` file into your Crusader Kings 3 mods folder, usually located in `C:\Users\<your_name>\Documents\Paradox Interactive\Crusader Kings III\mod`
 
 2. Load the mod into your playset via Paradox Launcher (when launching the game from Steam)
 
