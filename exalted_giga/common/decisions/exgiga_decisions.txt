@@ -1,0 +1,36 @@
+﻿exgiga_decision = {
+	picture = "gfx/interface/illustrations/decisions/become_exalted_giga.dds"
+
+	title = "Turn into THE exalted giga"
+	desc = "Ever felt feeling weak and useless? Can't win a single battle and even hand in marriage? Gonna cry? Don't fret. Become an exalted GIGA now!"
+	confirm_text = "Turn into an exalted GIGA!"
+	selection_tooltip = "Reward you with 400k gold, piety, prestige, and renown to kickstart your campaign"
+	ai_check_interval = 0
+
+	is_shown = {
+		is_ruler = yes
+	}
+
+	cooldown = { days = 30 }
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	effect = {
+		add_gold = 1000000
+		add_prestige = 1000000
+		add_piety = 1000000
+		dynasty = {
+			add_dynasty_prestige = 1000000
+		}
+	}
+	
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
