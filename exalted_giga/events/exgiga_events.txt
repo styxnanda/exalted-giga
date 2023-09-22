@@ -1,0 +1,38 @@
+namespace = exgiga
+
+exgiga.0001 = {
+    title = "The Entrance to The Exalted's Vault"
+    desc = "You are enthralled with the riches of The Exalted's Vault. Choose your reward, chosen one."
+    theme = crown
+    type = character_event
+    hidden = no
+
+    left_portrait = {
+        character = root
+        animation = happiness
+    }
+
+    trigger = {
+        has_character_flag = exgiga_flag
+        is_ai = no
+    }
+    option = {
+        name = "Gain 1M gold"
+        add_gold = 1000000
+    }
+    option = {
+        name = "Gain 1M piety"
+        add_piety = 1000000
+    }
+    option = {
+        name = "Gain 1M prestige"
+        add_prestige = 1000000
+    }
+    option = {
+        name = "Gain 1M renown"
+        dynasty = {
+            add_dynasty_prestige = 1000000
+        }
+    }
+
+}

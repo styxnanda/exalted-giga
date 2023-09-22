@@ -1,9 +1,9 @@
-﻿be_exalted_giga_decision = {
+exgiga_event = {
 	picture = "gfx/interface/illustrations/decisions/become_exalted_giga.dds"
 
-	title = "Turn into THE exalted giga"
+	title = "Exalted Giga Menu"
 	desc = "Ever felt feeling weak and useless? Can't win a single battle and even hand in marriage? Gonna cry? Don't fret. Become an exalted GIGA now!"
-	confirm_text = "Turned into an exalted GIGA!"
+	confirm_text = "Turn into an exalted GIGA!"
 	selection_tooltip = "Reward you with 400k gold, piety, prestige, and renown to kickstart your campaign"
 	ai_check_interval = 0
 
@@ -11,19 +11,10 @@
 		is_ruler = yes
 	}
 
-	cooldown = { days = 30 }
+	cooldown = { days = 0 }
 
 	is_valid_showing_failures_only = {
 		is_imprisoned = no
-	}
-
-	effect = {
-		add_gold = 400000
-		add_prestige = 400000
-		add_piety = 400000
-		dynasty = {
-			add_dynasty_prestige = 400000
-		}
 	}
 	
 	ai_potential = {
@@ -32,5 +23,15 @@
 
 	ai_will_do = {
 		base = 0
+	}
+
+	effect = {
+		hidden_effect = {
+			add_character_flag = {
+				flag = exgiga_flag
+			}
+		}
+
+		trigger_event = exgiga.0001
 	}
 }
