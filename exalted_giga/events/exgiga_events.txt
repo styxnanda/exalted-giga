@@ -9,7 +9,7 @@ exgiga.0001 = {
 
     left_portrait = {
         character = root
-        animation = happiness
+        animation = steward
     }
 
     trigger = {
